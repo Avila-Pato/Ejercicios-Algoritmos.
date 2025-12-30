@@ -1,9 +1,11 @@
 import './App.css'
-import Area from './ejercicios/AreaDeUnPoligono/Area'
+import { GetAspectRatio } from './ejercicios/AspectRatioImagen/AspectRatio'
+// import Area from './ejercicios/AreaDeUnPoligono/Area'
 // import NumerpPrimo from './ejercicios/NumeroPrimo/NumerpPrimo'
 // import Fibonnaci from './ejercicios/Fibonnaci/Fibonnaci'
 // import Anagrama from './ejercicios/Anagrama/Anagrama'
 // import FizzBuzz from './ejercicios/FizzBuzz/FizzBuzz'
+
 
 function App() {
 
@@ -14,7 +16,8 @@ function App() {
           {/* <Anagrama /> */}
           {/* <Fibonnaci /> */}
           {/* <NumerpPrimo /> */}
-        <Area />
+        {/* <Area /> */}
+        <GetAspectRatio />
       </div>
     </>
   )

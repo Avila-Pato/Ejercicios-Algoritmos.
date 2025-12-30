@@ -16,10 +16,11 @@ console.log("Area del rectángulo:", RectengleArea(5, 7))
 
 
 const Square = (side: number): number => {
-    return side * side
+  return side * side
 }
-Square(4)
-console.log("El area de un circulo es " + Square)
+const area = Square(2)
+console.log("El area de un circulo es " + area)
+
 
 
 const Area = () => {
