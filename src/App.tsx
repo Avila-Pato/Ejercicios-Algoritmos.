@@ -1,5 +1,6 @@
 import './App.css'
-import CodeMorseComponent from './ejercicios/CodigoMorse/CodeMorseComponent'
+import Expresiones from './ejercicios/ExpresionesEquilibradas/ExpresionesEquilibradas'
+// import CodeMorseComponent from './ejercicios/CodigoMorse/CodeMorseComponent'
 // import contandoPalabras from './ejercicios/ContandoPalabras/contandoPlabras'
 // import Binario from './ejercicios/DecimalBinario/Binario'
 // import { GetAspectRatio } from './ejercicios/AspectRatioImagen/AspectRatio'
@@ -29,7 +30,9 @@ function App() {
         
         {/* <Binario   /> */}
 
-        <CodeMorseComponent />
+        {/* <CodeMorseComponent /> */}
+
+        <Expresiones />
 
       </div>
     </>
