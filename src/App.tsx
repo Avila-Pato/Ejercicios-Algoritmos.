@@ -1,5 +1,6 @@
 import './App.css'
-import Expresiones from './ejercicios/ExpresionesEquilibradas/ExpresionesEquilibradas'
+import ElminandoCaracteres from './ejercicios/EliminandoCaracteres/ElminandoCaracteres'
+// import Expresiones from './ejercicios/ExpresionesEquilibradas/ExpresionesEquilibradas'
 // import CodeMorseComponent from './ejercicios/CodigoMorse/CodeMorseComponent'
 // import contandoPalabras from './ejercicios/ContandoPalabras/contandoPlabras'
 // import Binario from './ejercicios/DecimalBinario/Binario'
@@ -32,7 +33,9 @@ function App() {
 
         {/* <CodeMorseComponent /> */}
 
-        <Expresiones />
+        {/* <Expresiones /> */}
+
+        <ElminandoCaracteres />
 
       </div>
     </>
