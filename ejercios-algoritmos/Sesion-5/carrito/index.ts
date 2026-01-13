@@ -43,7 +43,7 @@ function manejarCarrito(producto: Producto, cantidad: number, carrito: Carrito =
           return [item[0], {...item[1], cantidad: item[1].cantidad + cantidad}] as [Producto['id'], Item]
         }
         return item
-      }).filter(item => item[1].cantidad > 0)  // Si la cantidad es 0, debemos eliminar el producto del carrito
+      }).filter(item => item[1].cantidad >= 0)  // Si la cantidad es 0, debemos eliminar el producto del carrito
     }
 
     return carrito
@@ -59,6 +59,7 @@ carrito = manejarCarrito(
   5,
   carrito
 )
+
 console.log(JSON.stringify(carrito, null, 2))
 // [['pizza', { cantidad: 5, producto: {...} }]]
 
