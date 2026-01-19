@@ -11,3 +11,33 @@
 // palabrador(["pala", "labrador", "dormir"]); // "lador"
 // palabrador(["cana", "nabo", "bola", "lado"]); // "nabola"
 // palabrador(["cana", "bola"]); // "No se puede formar la palabra"
+
+function Palabrador(palabra: string[]) {
+    let resultado = palabra[0]
+
+    for (let i = 1; i < palabra.length; i++) {
+        const actual = palabra[i];
+        let encontrado = false;
+
+        // Buscar la coincidencia más larga entre el final de resultado y el inicio de actual
+        for (let j = 1; j <= Math.min(resultado.length, actual.length); j++) {
+            const finalResultado = resultado.slice(-j);
+            const inicioActual = actual.slice(0, j);
+
+            if (finalResultado === inicioActual) {
+                resultado += actual.slice(j);
+                encontrado = true;
+                break;
+            }
+        }
+
+        if (!encontrado) {
+            return "No se puede formar la palabra";
+        }
+    }
+    return resultado;
+}
+
+console.log(Palabrador(["pala", "labrador", "dormir"]) )// "palabrador"
+console.log(Palabrador(["cana", "nabo", "bola", "lado"])) // "No se puede )formar la palabra"
+console.log(Palabrador(["cana", "bola"])) // "No se )puede formar la palabraP
