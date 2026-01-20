@@ -11,7 +11,7 @@ function Duplicados(array: any) {
 
 return new Set(array).size !== array.length;
 // new Set(array).size es el array nuevo sin duplicados
-// array.length es el array original 
+// array.length es el array original con duplicados
     
 }
 console.log(Duplicados([1, 2, 2, 3, 4, 4, 5]))
