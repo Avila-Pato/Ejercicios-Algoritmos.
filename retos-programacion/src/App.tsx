@@ -1,5 +1,7 @@
-import './App.css'
-import MouseColor from './ejercicios/UseEffect/HowWork'
+import "./App.css";
+import UserState from "./ejercicios/useContext/context/user/userState";
+import HowContextWork from "./ejercicios/useContext/HowContextWork";
+// import MouseColor from './ejercicios/UseEffect/HowWork'
 // import ElminandoCaracteres from '../ejercicios/EliminandoCaracteres/ElminandoCaracteres'
 
 // import Expresiones from '../ejercicios/ExpresionesEquilibradas/ExpresionesEquilibradas'
@@ -14,7 +16,6 @@ import MouseColor from './ejercicios/UseEffect/HowWork'
 // import FizzBuzz from '../ejercicios/FizzBuzz/FizzBuzz'
 // import FilterByReducer from "./ejercicios/Reducer/FilterByReducer.js"
 
-
 function App() {
   // const resultado = contandoPalabras("hola que que tal, tal que mi nombre es Jhon Doe, estoy aqui, aqui estoy en una charla informativa")
 
@@ -25,13 +26,12 @@ function App() {
         <pre>{JSON.stringify(resultado, null, 2)}</pre> */}
 
         {/* <FizzBuzz /> */}
-          {/* <Anagrama /> */}
-          {/* <Fibonnaci /> */}
-          {/* <NumerpPrimo /> */}
+        {/* <Anagrama /> */}
+        {/* <Fibonnaci /> */}
+        {/* <NumerpPrimo /> */}
         {/* <Area /> */}
         {/* <GetAspectRatio /> */}
 
-        
         {/* <Binario   /> */}
 
         {/* <CodeMorseComponent /> */}
@@ -42,11 +42,14 @@ function App() {
 
         {/* <FilterByReducer /> */}
 
-        <MouseColor />
+        {/* <MouseColor /> */}
 
+        <UserState>
+          <HowContextWork />
+        </UserState>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

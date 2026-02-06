@@ -41,6 +41,8 @@ const FilterByReducer = () => {
     },
     { menores: [], mayores: [], ancianos: [] },
   );
+
+  
   return (
     <section className="container">
         <div>
