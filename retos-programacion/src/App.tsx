@@ -1,5 +1,5 @@
 import './App.css'
-import ElminandoCaracteres from '../ejercicios/EliminandoCaracteres/ElminandoCaracteres'
+// import ElminandoCaracteres from '../ejercicios/EliminandoCaracteres/ElminandoCaracteres'
 
 // import Expresiones from '../ejercicios/ExpresionesEquilibradas/ExpresionesEquilibradas'
 // import CodeMorseComponent from '../ejercicios/CodigoMorse/CodeMorseComponent'
@@ -11,6 +11,7 @@ import ElminandoCaracteres from '../ejercicios/EliminandoCaracteres/ElminandoCar
 // import Fibonnaci from '../ejercicios/Fibonnaci/Fibonnaci'
 // import Anagrama from '../ejercicios/Anagrama/Anagrama'
 // import FizzBuzz from '../ejercicios/FizzBuzz/FizzBuzz'
+import FilterByReducer from "./ejercicios/Reducer/FilterByReducer.js"
 
 
 function App() {
@@ -36,7 +37,9 @@ function App() {
 
         {/* <Expresiones /> */}
 
-        <ElminandoCaracteres />
+        {/* <ElminandoCaracteres /> */}
+
+        <FilterByReducer />
 
       </div>
     </>
