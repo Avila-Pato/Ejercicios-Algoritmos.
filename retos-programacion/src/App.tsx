@@ -1,5 +1,4 @@
 import "./App.css";
-import UserState from "./ejercicios/useContext/context/user/userState";
 import HowContextWork from "./ejercicios/useContext/HowContextWork";
 // import MouseColor from './ejercicios/UseEffect/HowWork'
 // import ElminandoCaracteres from '../ejercicios/EliminandoCaracteres/ElminandoCaracteres'
@@ -44,9 +43,7 @@ function App() {
 
         {/* <MouseColor /> */}
 
-        <UserState>
           <HowContextWork />
-        </UserState>
       </div>
     </>
   );
