@@ -42,7 +42,7 @@ const FilterByReducer = () => {
     { menores: [], mayores: [], ancianos: [] },
   );
   return (
-    <section>
+    <section className="container">
         <div>
           <p>Cantida de menores {group.menores.length} </p>
           {group.menores.map((p) => (

@@ -1,4 +1,5 @@
 import './App.css'
+import MouseColor from './ejercicios/UseEffect/HowWork'
 // import ElminandoCaracteres from '../ejercicios/EliminandoCaracteres/ElminandoCaracteres'
 
 // import Expresiones from '../ejercicios/ExpresionesEquilibradas/ExpresionesEquilibradas'
@@ -11,7 +12,7 @@ import './App.css'
 // import Fibonnaci from '../ejercicios/Fibonnaci/Fibonnaci'
 // import Anagrama from '../ejercicios/Anagrama/Anagrama'
 // import FizzBuzz from '../ejercicios/FizzBuzz/FizzBuzz'
-import FilterByReducer from "./ejercicios/Reducer/FilterByReducer.js"
+// import FilterByReducer from "./ejercicios/Reducer/FilterByReducer.js"
 
 
 function App() {
@@ -39,7 +40,9 @@ function App() {
 
         {/* <ElminandoCaracteres /> */}
 
-        <FilterByReducer />
+        {/* <FilterByReducer /> */}
+
+        <MouseColor />
 
       </div>
     </>
